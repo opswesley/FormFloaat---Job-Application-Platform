@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 font-sans text-gray-800;
+}
+
+.container {
+  @apply max-w-7xl;
+}
+
+input, select, textarea {
+  @apply transition duration-200;
+}
+
+h1, h2, h3, h4 {
+  @apply font-bold;
+}
